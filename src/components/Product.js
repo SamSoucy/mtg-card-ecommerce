@@ -5,7 +5,7 @@ export default class Product extends Component{
         return (
             <div>
                 <h3>
-                    
+                    hello from product
                 </h3>
             </div>
         );
