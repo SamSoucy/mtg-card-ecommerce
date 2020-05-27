@@ -20,8 +20,8 @@ body{
   /* letter-spacing: 0.3rem; */
   text-transform: uppercase;
 }
-.text-blue{
-  color: var(--mainBlue);
+.text-black{
+  color: var(--mainBlack);
 }
 .secondary-text{
   color: var(--secondaryBlue);
