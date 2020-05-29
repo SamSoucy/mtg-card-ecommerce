@@ -10,9 +10,11 @@ import Cart from "./components/Cart";
 import Default from "./components/Default";
 
 
+
 class App extends Component {
   render() {
     return (
+      
       <React.Fragment>
         <Navbar />
         <Switch>
