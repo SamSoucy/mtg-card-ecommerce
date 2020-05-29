@@ -12,7 +12,7 @@ export default class Product extends Component{
                 <div className="card">
                     <div
                         className="img-container p-5"
-                        onClick={() =>console.log("you clickedon me in the image container")}>
+                        onClick={() =>console.log("you clicked on me in the image container")}>
                     
                     <Link to="/details">
                         <img src={img} alt="product" className="card-img-top"/>
