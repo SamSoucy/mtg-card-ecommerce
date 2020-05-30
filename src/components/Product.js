@@ -27,7 +27,7 @@ export default class Product extends Component{
                         }}
                         >
                            {inCart ? (
-                            <p classNamw="text-capitalize mb-0" disabled>
+                            <p className="text-capitalize mb-0" disabled>
                                 {" "}
                                 in Cart
                             </p>
