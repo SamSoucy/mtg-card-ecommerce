@@ -13,6 +13,7 @@ padding: 0.2 rem 0.5rem;
 cursor:pointer;
 margin: 0.2 0.5 0.2 0;
 margin-left: 5px;
+margin-bottom:5px;
 transition: all 0.5s ease-in-out;
 &:hover{
     background: var(--secondaryGreen);
