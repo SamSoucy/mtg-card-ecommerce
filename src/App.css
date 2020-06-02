@@ -44,4 +44,7 @@ body{
   color: var(--secondaryRed);
 }
 
+.column-categories{
+  font-size: x-large;
+}
    
