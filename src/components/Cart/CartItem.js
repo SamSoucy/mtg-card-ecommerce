@@ -28,6 +28,11 @@ export default function CartList({ item, value }) {
                         onClick={() => decrement(id)}>
                         -
                     </span>
+                    <span className="btn btn-black mx-1">{count}</span>
+                    <span className="btn btn-black mx-1"
+                        onClick={() => increment(id)}>
+                        +
+                    </span>
                 </div>
             </div>
             
