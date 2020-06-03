@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { magicProducts, detailProduct } from "./data";
 
+
 const ProductContext = React.createContext();
 //Povoider
 //Consumer
@@ -14,9 +15,10 @@ class ProductProvider extends Component {
         modalProduct: detailProduct,
         cartSubTotal: 0,
         cartTax: 0,
-        cartTotal:0
+        cartTotal: 0,
 
     };
+
     componentDidMount() {
         this.setProducts();
     }
@@ -35,6 +37,7 @@ class ProductProvider extends Component {
         const product = this.state.products.find(item => item.id === id);
         return product;
     };
+      
     handleDetail = (id) => {
         const product = this.getItem(id);
         this.setState(() => {
